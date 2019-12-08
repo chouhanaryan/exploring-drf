@@ -16,6 +16,11 @@ pipenv install
 cd .\drf\
 python manage.py runserver
 ```
+## ER Diagram
+
+![ERD](https://imgur.com/ynWpAQI.png)
+
+(generated using Pygraphviz)
 
 ## Usage
 
