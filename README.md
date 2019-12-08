@@ -1,4 +1,4 @@
-# Exploring-DRF
+# exploring-drf
 
 This is a project exploring the Django-Rest-Framework with Djoser.
 
