@@ -99,4 +99,4 @@ Login using any of these by sending the appropriate request to the API, and you 
 
 The administrator credentials can also be used to manually add people, houses, users and generate tokens via the Django admin panel.
 
-Documentation for additional functionality can be accessed at ```https://djoser.readthedocs.io/en/latest/```.
+Documentation for additional functionality can be accessed at the [Djoser docs](https://djoser.readthedocs.io/en/latest/).
