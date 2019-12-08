@@ -85,13 +85,13 @@ _Response_ - Details of specific house by ID
 
 To explore the API, use Postman or any other API development platforms.
 
-**Administrator Login credentials**: 
+**Administrator login credentials**: 
 
 _email_: ```admin@admin.com```
 
 _password_: ```admin```
 
-**User Login credentials**: 
+**User login credentials**: 
 
 _email_: ```test1@admin.com``` / ```test2@admin.com```
 
