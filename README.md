@@ -21,13 +21,13 @@ python manage.py runserver
 
 - **Root**
 
-```GET``` ```http://localhost:8000/```
+```GET``` ```/```
 
 _Response_ - URLs of main API structure
 
 - **Login**
 
-```POST``` ```http://localhost:8000/auth/token/login/```
+```POST``` ```/auth/token/login/```
 
 _Response_ - Returns authorization token
 
@@ -35,19 +35,19 @@ _Body_ - Password, Email
 
 - **Logout** _(Authentication Required)_
 
-```POST``` ```http://localhost:8000/auth/token/logout/```
+```POST``` ```/auth/token/logout/```
 
 _Response_ - None
 
 - **Users** _(Authentication Required)_
 
-```GET``` ```http://localhost:8000/auth/users/```
+```GET``` ```/auth/users/```
 
 _Response_ - Detailed list of all users
 
 - **Users** _(Authentication Required)_
 
-```POST``` ```http://localhost:8000/auth/users/```
+```POST``` ```/auth/users/```
 
 _Response_ - Register a new user
 
@@ -55,7 +55,7 @@ _Body_ - Username, First name, Last name, Email, Password, Re password
 
 - **Person** _(Authentication Required)_
 
-```GET | POST | PUT | DELETE``` ```http://localhost:8000/person/```
+```GET | POST | PUT | DELETE``` ```/person/```
 
 _Response_ - Detailed list of all people registered
 
@@ -63,13 +63,13 @@ _Body_ - Name, Email, DOB, Age, ID (as and when required)
 
 - **Person (ID)** _(Authentication Required)_
 
-```GET``` ```http://localhost:8000/person/<id>```
+```GET``` ```/person/<id>```
 
 _Response_ - Details of specific person by ID
 
 - **House** _(Authentication Required)_
 
-```GET | POST | PUT | DELETE``` ```http://localhost:8000/house/```
+```GET | POST | PUT | DELETE``` ```/house/```
 
 _Response_ - Detailed list of all houses registered
 
@@ -77,7 +77,7 @@ _Body_ - Loc, Owner (URL), pin (unique), ID (as and when required)
 
 - **House (ID)** _(Authentication Required)_
 
-```GET``` ```http://localhost:8000/house/<id>```
+```GET``` ```/house/<id>```
 
 _Response_ - Details of specific house by ID
 
