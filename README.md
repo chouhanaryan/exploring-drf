@@ -18,7 +18,7 @@ python manage.py runserver
 ```
 ## ER Diagram
 
-![ERD](https://imgur.com/ynWpAQI.png)
+![ERD](https://github.com/chouhanaryan/exploring-drf/blob/master/ER%20Diagram.jpg)
 
 (generated using Pygraphviz)
 
