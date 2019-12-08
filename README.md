@@ -63,7 +63,7 @@ _Body_ - Name, Email, DOB, Age, ID (as and when required)
 
 - **Person (ID)** _(Authentication Required)_
 
-```GET``` ```/person/<id>```
+```GET``` ```/person/<id>/```
 
 _Response_ - Details of specific person by ID
 
@@ -77,7 +77,7 @@ _Body_ - Loc, Owner (URL), pin (unique), ID (as and when required)
 
 - **House (ID)** _(Authentication Required)_
 
-```GET``` ```/house/<id>```
+```GET``` ```/house/<id>/```
 
 _Response_ - Details of specific house by ID
 
