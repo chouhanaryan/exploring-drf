@@ -2,6 +2,8 @@
 
 This is a project exploring the Django-Rest-Framework with Djoser.
 
+Through the project, I created Function-based views, Class-based views, Class-based views for Serialized Models, Generic views for Serialized Models and Viewsets. In the final code, everything except the Viewsets is commented out. Relevant URLs and code can be uncommented to explore different functionality as well.
+
 ## Installation
 
 First, clone the repository and create a virtual environment. Install all dependencies and start the server.
